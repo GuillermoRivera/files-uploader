@@ -1,0 +1,23 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "description": "This is a little application to upload files with Node.js to the server",
+  "main": "uploader.js",
+  "scripts": {
+    "start": "node uploader.js",
+    "restart": "supervisor uploader.js"
+  },
+  "keywords": [
+    "uploader",
+    "files",
+    "node.js",
+    "formidable",
+    "fs-extra"
+  ],
+  "author": "Juan Guillermo Rivera Orozco <guillerivera32@gmail.com> (https://www.twitter.com/guillerivera325)",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "fs-extra": "^3.0.1"
+  }
+}
